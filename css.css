@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkkhaki;
+}
+nav{
+    background-color:beige;
+    justify-content: space-between;
+    align-items:center ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    z-index: 1000;
+    height: 12%;
+}
+.nav-options a{
+    color:black;
+    margin-right: 16px;
+}
+.nav-options a:hover{
+    color:maroon ;
+    border: 4px solid maroon;
+    position: block;
+}
+.nav-options a:active{
+    opacity: 0.8;
+}
+.nav-name{
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:flex;
+    text-align: center;
+}
+.nav-options{
+    position: inline-block;
+    margin: 15px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 1000;
+}
+.heading{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.heading p{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: maroon;
+    transition:ease-in-out 0.25s;
+    margin-top: 30px;
+}
+.heading p:hover{
+    border: 2px solid maroon;
+    border-radius: 30px;
+    background-color: beige;
+    padding: 20px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-top:150px;
+    margin-bottom: 0%;
+    border: 6px solid maroon;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 5px 30px 30px;
+}
+h3{
+    font-size: large;
+    font-weight: 900;
+    color: black;
+}
+.box{
+    max-width: 1200px;
+    margin:auto;
+    background: cornsilk;
+    border-radius: 20px;
+    padding: 40px;
+    border:3px solid maroon;
+    position: sticky;
+    top: 0;
+    bottom:20%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    text-align: center;
+    justify-content: center;
+}
+section{
+    max-width: 900px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    margin-left: 80px;
+    padding: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+table{
+    margin: 10px;
+    margin-bottom: 25px;
+    border: 2px solid maroon;
+}
+th, td{
+    padding:10px;
+    border: 2px solid maroon;
+    background-color: beige;
+    color: maroon;
+}
+a{
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: maroon;
+    border: 2px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#sect_ion, #about, #Education, #skills, #achievements,#projects,  #contact{
+    border:3px solid maroon;
+
+}
+
