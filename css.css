@@ -131,8 +131,11 @@ footer{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
-#sect_ion, #about, #Education, #skills, #achievements,#projects,  #contact{
+#sect_ion, #about, #education, #skills, #achievements,#projects,  #contact{
     border:3px solid maroon;
-
 }
+hr{
+    border: 1px solid maroon;
+}
+
 
